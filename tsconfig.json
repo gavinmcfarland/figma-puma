@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "lib": ["es6"],
+        "target": "es2017",
+        "typeRoots": [
+            "./node_modules/@types",
+            "./node_modules/@figma",
+            "./typings.d.ts"
+        ],
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true
+    },
+}
