@@ -67,6 +67,8 @@ function linkSlidesInColumn(frames) {
 	}
 }
 
+// This function takes an array of frames and itterates through each column on the canvas
+
 function itterateColumn(frames) {
 	columnCount++
 
