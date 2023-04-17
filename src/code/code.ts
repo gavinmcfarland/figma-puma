@@ -112,6 +112,10 @@ function itterateColumn(frames) {
 	}
 }
 
-itterateColumn(figma.currentPage.selection)
+function getFrames(nodes) {
+	return nodes.filter((node) => node.type == 'FRAME')
+}
+
+itterateColumn(getFrames(figma.currentPage.selection))
 
 figma.closePlugin('Plugin run')
