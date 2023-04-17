@@ -6,7 +6,7 @@ This is a simple plugin that links each frame in a selection so that you can pre
 
 To run this plugin you need to have the Figma Desktop app installed.
 
-1. Download this folder
+1. Download the `dist` folder
 1. Open the Figma Desktop app
 2. In any file open the Quick Actions menu by pressing `cmd/ctrl + /`
 3. Type `Import plugin from manifest` and run the command
