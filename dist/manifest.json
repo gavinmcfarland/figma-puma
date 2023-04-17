@@ -1,0 +1,8 @@
+{
+  "name": "Puma",
+  "id": "",
+  "api": "1.0.0",
+  "main": "build/code.js",
+  "ui": "build/index.html",
+  "editorType": ["figma", "figjam"]
+}

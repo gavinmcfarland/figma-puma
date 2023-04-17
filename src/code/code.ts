@@ -116,6 +116,9 @@ function getFrames(nodes) {
 	return nodes.filter((node) => node.type == 'FRAME')
 }
 
-itterateColumn(getFrames(figma.currentPage.selection))
-
-figma.closePlugin('Plugin run')
+if (figma.currentPage.selection.length > 2) {
+	itterateColumn(getFrames(figma.currentPage.selection))
+	figma.closePlugin('Plugin run')
+} else {
+	figma.closePlugin('Please select more than one frame to link')
+}
