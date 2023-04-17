@@ -2,7 +2,7 @@
 
 This is a simple plugin that links each frame in a selection so that you can present your slides in the shape of the PUMA. [Learn more about the PUMA](https://www.youtube.com/watch?v=7oeKKkbybR0) by Dan Roam.
 
-## How to trial/install
+## How to trial/install
 
 To run this plugin you need to have the Figma Desktop app installed.
 
